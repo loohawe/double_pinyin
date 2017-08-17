@@ -4,4 +4,4 @@ patch:
     horizontal: true
     inline_preedit: true
     corner_radius: 0
-    font_point: 22
+    font_point: 16
