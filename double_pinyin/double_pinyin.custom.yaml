@@ -90,6 +90,8 @@ patch:
       "$": ["¥", "$", "€", "£", "¢", "¤"]
       "<": ["《", "〈", "«", "<"]
       ">": ["》", "〉", "»", ">"]
+  recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
+  # recognizer/patterns/reverse_lookup: "[a-z]*?$"
 
   # 双拼使用自定义词典 custom_phrase.txt
   custom_phrase:
